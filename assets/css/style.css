@@ -75,3 +75,27 @@ h4 {
 .contact {
 	column-gap: 20px;
 }
+
+main {
+	justify-content: center;
+	align-items: center;
+	flex-grow: 3;
+	row-gap: 10px;
+}
+
+.img-hand {
+	max-width: 300px;
+	height: 300px;
+}
+
+.main-section {
+	flex-grow: 1;
+}
+
+.size-h2 {
+	font-size: 50px;
+}
+
+.size-p {
+	margin-top: 1px;
+}
