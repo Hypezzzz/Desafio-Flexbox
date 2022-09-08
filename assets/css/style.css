@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.user-profile {
+	max-width: 45px;
+	max-height: 45px;
+}
+
+.img-contact {
+	max-width: 65px;
+	max-height: 65px;
+}
+
+.user-profile,
+.img-contact {
+	clip-path: circle(50%);
+}
+
+.button-container {
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+.button-container button {
+	background-color: #a491d2;
+	color: white;
+	border: none;
+	padding: 15px 50px;
+}
+
+.user-div {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon-div {
+	column-gap: 15px;
+	justify-content: space-between;
+}
+
+.text-line {
+	justify-content: center;
+}
+
+h4 {
+	margin: 0;
+}
+
+.contact-list > div {
+	padding: 20px;
+	border: 1px solid #e8ebe8;
+}
+
+.user-status {
+	color: grey;
+}
+
+.contact {
+	column-gap: 20px;
+}
